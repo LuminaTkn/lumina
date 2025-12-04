@@ -1,0 +1,48 @@
+name: Init Noren Token Repo
+on:
+  workflow_dispatch:
+
+jobs:
+  create-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create project structure
+        run: |
+          mkdir -p contracts tests scripts assets
+          touch contracts/.gitkeep tests/.gitkeep scripts/.gitkeep assets/.gitkeep
+          echo "# noren-token" > README.md
+          echo "MIT License" > LICENSE
+          cat > .gitignore <<EOL
+node_modules/
+dist/
+build/
+target/
+Cargo.lock
+.DS_Store
+.env
+EOL
+          cat > package.json <<EOL
+{
+  "name": "noren-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\"Error: no test specified\\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+EOL
+
+      - name: Commit files
+        run: |
+          git config --global user.name "Arturo Fernandez"
+          git config --global user.email "your-email@example.com"
+          git add .
+          git commit -m "Initial setup via GitHub Actions"
+          git push origin main
