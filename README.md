@@ -1,16 +1,25 @@
-# Noren Token
+# Noren Token (NOREN)
 
-Noren Token is a revolutionary Solana-based project that leverages blockchain technology for fast, scalable, and secure tokenized assets. Our mission is to redefine decentralized finance (DeFi) on the Solana network, creating next-generation smart contracts and applications that empower users worldwide.
+## Vision
+Revolutionizing digital assets on the Solana blockchain: fast, cheap, and scalable token ecosystem.
 
-## Features
-- Lightning-fast transactions with minimal fees via the Solana network
-- Modular smart contracts for DeFi, NFTs, and token utilities
-- Developer-friendly architecture using Anchor framework
-- Full testing and scripts for deployment and automation
+## Tokenomics
+- Total Supply: 1,000,000,000 NOREN
+- Team: 15% (vesting)
+- Investors: 25% (vesting)
+- Staking Rewards: 5% annually
+- Public Sale: 55%
 
-## Folders
-- `contracts` : Rust smart contracts
-- `tests` : JS/TS tests
-- `scripts` : Deployment and utility scripts
-- `assets` : Images, icons, and media
-- `docs` : Whitepaper and additional documentation
+## Roadmap
+1. GitHub repo setup
+2. Testnet deployment
+3. Mainnet launch
+4. Exchange listings
+
+## Deployment
+Use Anchor CLI and Solana CLI to deploy contracts.
+
+## Links
+- Website: TBD
+- Twitter: TBD
+- Medium: TBD
