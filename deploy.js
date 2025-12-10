@@ -9,9 +9,9 @@ async function main() {
   const connection = provider.connection;
   const wallet = provider.wallet;
 
-  console.log("Deploying Noren Token...");
+  console.log("Deploying Lumina Token...");
 
-  // Create the token mint (NOREN)
+  // Create the token mint (Lumina)
   const decimals = 9; // Standard Solana token decimals
   const mint = await createMint(
     connection,
@@ -34,7 +34,7 @@ async function main() {
   console.log("User token account:", userTokenAccount.address.toBase58());
 
   // Mint initial supply
-  const totalSupply = 1_000_000_000 * 10 ** decimals; // 1 billion NOREN
+  const totalSupply = 1_000_000_000 * 10 ** decimals; // 1 billion Lumina
   await mintTo(
     connection,
     wallet.payer,
@@ -44,7 +44,7 @@ async function main() {
     totalSupply
   );
 
-  console.log(`Minted ${totalSupply / 10 ** decimals} NOREN to ${userTokenAccount.address.toBase58()}`);
+  console.log(`Minted ${totalSupply / 10 ** decimals} Lumina to ${userTokenAccount.address.toBase58()}`);
 
   console.log("Deployment finished.");
 }

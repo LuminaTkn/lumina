@@ -1,7 +1,7 @@
 const anchor = require('@coral-xyz/anchor');
 const { TOKEN_PROGRAM_ID, getAccount, createMint, getOrCreateAssociatedTokenAccount, mintTo, transfer } = require('@solana/spl-token');
 
-describe('Noren Token', () => {
+describe('Lumina Token', () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
   const connection = provider.connection;
@@ -32,7 +32,7 @@ describe('Noren Token', () => {
     recipientTokenAccount = await getOrCreateAssociatedTokenAccount(connection, wallet.payer, mint, recipient.publicKey);
 
     // Transfer some tokens
-    const amount = 1000 * 10 ** 9; // 1000 NOREN
+    const amount = 1000 * 10 ** 9; // 1000 Lumina
     await transfer(
       connection,
       wallet.payer,

@@ -1,10 +1,10 @@
-# Noren Token (NOREN)
+# Lumina Token (Lumina)
 
 ## Vision
 Revolutionizing digital assets on the Solana blockchain: fast, cheap, and scalable token ecosystem.
 
 ## Tokenomics
-- Total Supply: 1,000,000,000 NOREN
+- Total Supply: 1,000,000,000 Lumina
 - Team: 15% (vesting)
 - Investors: 25% (vesting)
 - Staking Rewards: 5% annually

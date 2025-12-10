@@ -1,11 +1,11 @@
 1. Executive Summary
 
-Noren Token (NOREN) is a next-generation digital asset designed to unify AI-driven payments, real-world settlement, and blockchain-native financial tools into a seamless ecosystem.
+Lumina Token (Lumina) is a next-generation digital asset designed to unify AI-driven payments, real-world settlement, and blockchain-native financial tools into a seamless ecosystem.
 
 Mission:
 Make blockchain as simple and reliable as sending a text message — for individuals, businesses, banks, and AI systems alike.
 
-Unlike traditional crypto projects built on hype, Noren is utility-first:
+Unlike traditional crypto projects built on hype, Lumina is utility-first:
 
 High-speed, low-cost settlement
 
@@ -15,11 +15,11 @@ AI-powered smart payment routing
 
 Institutional-grade architecture
 
-Governance: Managed by Noren Foundation, ensuring ecosystem adoption, transparency, and growth.
+Governance: Managed by Lumina Foundation, ensuring ecosystem adoption, transparency, and growth.
 
 2. Introduction
 
-Noren Token aims to build the next-generation decentralized economy on Solana, leveraging its high performance and secure, decentralized architecture.
+Lumina Token aims to build the next-generation decentralized economy on Solana, leveraging its high performance and secure, decentralized architecture.
 
 Solana Advantages:
 
@@ -29,7 +29,7 @@ Low fees
 
 Secure and decentralized
 
-Noren combines these advantages with AI-powered settlement and institutional-grade features.
+Lumina combines these advantages with AI-powered settlement and institutional-grade features.
 
 3. Vision & Purpose
 
@@ -50,11 +50,11 @@ Mission Statement:
 
 4. Core Innovation
 
-Noren introduces three core breakthroughs:
+Lumina introduces three core breakthroughs:
 
 A. Adaptive AI-Payment Routing (AAPR)
 
-Automatically routes payments across networks (Noren → other chains) using the lowest-cost, fastest path.
+Automatically routes payments across networks (Lumina → other chains) using the lowest-cost, fastest path.
 
 Functions like an AI GPS for money:
 
@@ -68,7 +68,7 @@ Finds optimal route
 
 Executes instantly
 
-B. Noren Identity Layer (NID)
+B. Lumina Identity Layer (NID)
 
 Trust without compromising privacy:
 
@@ -104,7 +104,7 @@ More stable under congestion than Ethereum L2s
 
 5. Utility & Governance
 
-NOREN powers the ecosystem:
+Lumina powers the ecosystem:
 
 🔹 Gas for transactions
 
@@ -130,7 +130,7 @@ Future integrations: AI agents, DeFi platforms, merchant gateways.
 
 6. Tokenomics & Allocation
 
-Total Supply: 1,000,000,000 NOREN
+Total Supply: 1,000,000,000 Lumina
 
 Category	Percent	Notes
 Public Launch	40%	Fair, transparent distribution
@@ -147,10 +147,10 @@ Phase 1	Q1	Whitepaper, Branding, Social media, Mission & AI routing defined
 Phase 2	Q2	GitHub organization, Smart contract development, Devnet deployment
 Phase 3	Q3	Mainnet launch, Smart contract audits, Validator setup, Wallet integration
 Phase 4	Q4	Exchange listings, Partnerships (Raydium, Orca, Uniswap, OKX, Gate.io, Binance)
-Phase 5	Future	AAPR rollout, Noren Identity Layer, Merchant tools, AI agent payment modules
+Phase 5	Future	AAPR rollout, Lumina Identity Layer, Merchant tools, AI agent payment modules
 8. Investor Pitch
 
-Noren provides:
+Lumina provides:
 
 Transparent code & roadmap
 
@@ -162,9 +162,9 @@ Institutional-grade architecture
 
 This combination ensures confidence for investors, developers, and enterprises.
 
-9. Governance (Noren Foundation)
+9. Governance (Lumina Foundation)
 
-The Noren Foundation oversees:
+The Lumina Foundation oversees:
 
 Ecosystem funding
 
@@ -176,7 +176,7 @@ Transparency reporting
 
 Strategic partnerships
 
-All major changes require community vote using staked NOREN.
+All major changes require community vote using staked Lumina.
 
 10. Security & Compliance
 
@@ -214,11 +214,11 @@ Supports long-term token health and ecosystem growth.
 
 12. Conclusion
 
-NOREN is more than a token — it is the next evolution of blockchain:
+Lumina is more than a token — it is the next evolution of blockchain:
 
 Real AI-driven utility
 
-Strong branding under Noren Foundation
+Strong branding under Lumina Foundation
 
 Cross-chain interoperability
 
@@ -226,4 +226,4 @@ Payment automation and routing
 
 Institutional readiness
 
-With these pillars, NOREN is positioned to become a top-tier digital asset in the next cycle.
+With these pillars, Lumina is positioned to become a top-tier digital asset in the next cycle.

@@ -1,7 +1,7 @@
 {
-  "name": "noren-token",
+  "name": "Lumina-token",
   "version": "1.0.0",
-  "description": "Noren Token SOL Project",
+  "description": "Lumina Token SOL Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

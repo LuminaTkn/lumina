@@ -1,10 +1,10 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, Token, TokenAccount, Transfer, MintTo};
 
-declare_id!("Noren111111111111111111111111111111111111111");
+declare_id!("Lumina111111111111111111111111111111111111111");
 
 #[program]
-pub mod noren_token {
+pub mod Lumina_token {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>, total_supply: u64) -> Result<()> {
