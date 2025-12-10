@@ -1,26 +1,43 @@
 # Lumina Token (LUM)
 
 ## Vision
-Lumina is revolutionizing digital assets on the Solana blockchain: fast, cheap, and scalable token ecosystem.
+Lumina is a next-generation Solana-based token designed to deliver **fast, scalable, and low-cost digital assets**. Our mission is to create an ecosystem where developers, investors, and users can participate seamlessly in decentralized finance.
+
+## Mission
+To bridge traditional finance and blockchain, providing secure, valuable, and accessible digital assets.
+
+## Goals
+- Launch a robust token ecosystem with staking, transfers, and utility.
+- Ensure fair token distribution through public sale, investor allocations, and team vesting.
+- Integrate with Solana dApps and exchanges to ensure liquidity and adoption.
+- Maintain transparency and governance for investor confidence.
+- Grow a strong community via social platforms and strategic partnerships.
 
 ## Tokenomics
-- Total Supply: 1,000,000,000 LUM
-- Team: 30% (vesting)
-- Investors: 25% (vesting)
-- Staking Rewards: 5% annually
-- Public Sale: 40%
+| Category        | Allocation | Notes                         |
+|-----------------|------------|-------------------------------|
+| Total Supply    | 1,000,000,000 LUM | Fully minted on Solana     |
+| Team            | 30%        | Vesting over 24 months         |
+| Investors       | 25%        | Strategic early adopters       |
+| Public Sale     | 40%        | Open to general public         |
+| Staking Rewards | 5% annually| Incentivizes network participation |
 
 ## Roadmap
-- GitHub repo setup
-- Testnet deployment
-- Mainnet launch
-- Exchange listings
+1. GitHub repo setup
+2. Testnet deployment
+3. Mainnet launch
+4. Exchange listings
+5. Website launch
+6. Community growth and governance integration
+
+## Community & Governance
+- X (formerly Twitter): [https://x.com/Lumina_Tkn](https://x.com/Lumina_Tkn)  
+- Reddit: [https://www.reddit.com/r/LuminaCoin/](https://www.reddit.com/r/LuminaCoin/)  
+- Medium/Website: TBD
 
 ## Deployment
 Use Anchor CLI and Solana CLI to deploy contracts.
 
-## Links
-X: https://x.com/Lumina_Tkn  
-Reddit: https://www.reddit.com/r/LuminaCoin/
-Website: TBD
-Medium: TBD
+---
+
+*© 2025 Lumina Token. All rights reserved.*
