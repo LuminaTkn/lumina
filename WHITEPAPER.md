@@ -21,3 +21,7 @@ Lumina is a next-generation Solana-based token designed for speed, scalability, 
 3. Mainnet launch
 4. Exchange listings
 5. Website launch
+
+## Links
+X: https://x.com/Lumina_Tkn  
+Reddit: https://www.reddit.com/r/LuminaCoin/

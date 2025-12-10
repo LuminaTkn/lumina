@@ -20,6 +20,7 @@ Lumina is revolutionizing digital assets on the Solana blockchain: fast, cheap, 
 Use Anchor CLI and Solana CLI to deploy contracts.
 
 ## Links
+X: https://x.com/Lumina_Tkn  
+Reddit: https://www.reddit.com/r/LuminaCoin/
 Website: TBD
-Twitter: TBD
 Medium: TBD
