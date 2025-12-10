@@ -1,54 +1,32 @@
-const anchor = require('@coral-xyz/anchor');
-const { TOKEN_PROGRAM_ID, createMint, getOrCreateAssociatedTokenAccount, mintTo } = require('@solana/spl-token');
+// Deploy script for Lumina Token
+const { execSync } = require('child_process');
 
-async function main() {
-  // Set up provider
-  const provider = anchor.AnchorProvider.env();
-  anchor.setProvider(provider);
+const MINT_ADDRESS = 'REPLACE_WITH_LUMINA_MINT_ADDRESS';
 
-  const connection = provider.connection;
-  const wallet = provider.wallet;
+console.log('Deploying Lumina Token with mint:', MINT_ADDRESS);
+// Add Anchor/Solana deploy commands here
+"
 
-  console.log("Deploying Lumina Token...");
+# 6?? Update lumina_token.rs (example content)
+Set-Content -Path "lumina_token.rs" -Value @"
+use anchor_lang::prelude::*;
+use anchor_spl::token::{self, Mint, Token, TokenAccount, Transfer, MintTo};
 
-  // Create the token mint (Lumina)
-  const decimals = 9; // Standard Solana token decimals
-  const mint = await createMint(
-    connection,
-    wallet.payer,
-    wallet.publicKey, // Mint authority
-    wallet.publicKey, // Freeze authority
-    decimals
-  );
+declare_id!(\"Lumina111111111111111111111111111111111111111\");
 
-  console.log("Token mint created:", mint.toBase58());
-
-  // Create the user's associated token account
-  const userTokenAccount = await getOrCreateAssociatedTokenAccount(
-    connection,
-    wallet.payer,
-    mint,
-    wallet.publicKey
-  );
-
-  console.log("User token account:", userTokenAccount.address.toBase58());
-
-  // Mint initial supply
-  const totalSupply = 1_000_000_000 * 10 ** decimals; // 1 billion Lumina
-  await mintTo(
-    connection,
-    wallet.payer,
-    mint,
-    userTokenAccount.address,
-    wallet.publicKey,
-    totalSupply
-  );
-
-  console.log(`Minted ${totalSupply / 10 ** decimals} Lumina to ${userTokenAccount.address.toBase58()}`);
-
-  console.log("Deployment finished.");
+#[program]
+pub mod lumina_token {
+    use super::*;
+    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+        Ok(())
+    }
 }
 
-main().catch(err => {
-  console.error(err);
-});
+#[derive(Accounts)]
+pub struct Initialize<'info> {
+    #[account(mut)]
+    pub mint: Account<'info, Mint>,
+    #[account(mut)]
+    pub token_account: Account<'info, TokenAccount>,
+    pub token_program: Program<'info, Token>,
+}
