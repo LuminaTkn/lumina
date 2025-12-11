@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "Arturo Fernandez",
   "license": "MIT",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0"
+  }
 }
